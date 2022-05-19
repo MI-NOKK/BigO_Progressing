@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bigo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BigO">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".Algorithm.P5_1_algoEx"
+            android:exported="false" />
+        <activity
+            android:name=".Sql.P8_3_sqlTestQ"
+            android:exported="false" />
+        <activity
+            android:name=".Sql.P8_2_sqlTestQ"
+            android:exported="false" />
+        <activity
+            android:name=".Sql.P8_1_sqlTestQ"
+            android:exported="false" />
+        <activity
+            android:name=".Sql.P8_sql"
+            android:exported="false" />
+        <activity
+            android:name=".CodingTest.P7_3_coTestQ"
+            android:exported="false" />
+        <activity
+            android:name=".CodingTest.P7_2_coTetQ"
+            android:exported="false" />
+        <activity
+            android:name=".Sql.P8_4_sqlSol"
+            android:exported="false" />
+        <activity
+            android:name=".CodingTest.P7_4_coteSol"
+            android:exported="false" />
+        <activity
+            android:name=".CodingTest.P7_1_coTestQ"
+            android:exported="false" />
+        <activity
+            android:name=".licence.licenceList"
+            android:exported="false" />
+        <activity
+            android:name=".licence.licenceSol"
+            android:exported="false" />
+        <activity
+            android:name=".licence.licenceQ"
+            android:exported="false" />
+        <activity
+            android:name=".licence.licenceQ1"
+            android:exported="false" />
+        <activity
+            android:name=".licence.licenceQ2"
+            android:exported="false" />
+        <activity
+            android:name=".licence.licence"
+            android:exported="false" />
+        <activity
+            android:name=".CodingTest.P7_coTest"
+            android:exported="false" />
+        <activity
+            android:name=".myPage.P6_3_chPW"
+            android:exported="false" />
+        <activity
+            android:name=".myPage.P6_2_chI"
+            android:exported="false" />
+        <activity
+            android:name=".myPage.P6_1_check"
+            android:exported="false" />
+        <activity
+            android:name=".P3_surbay"
+            android:exported="false" />
+        <activity
+            android:name=".login.P_2_5_findpw"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage.P4_Navi"
+            android:exported="false" />
+        <activity
+            android:name=".login.P_2_4findpw"
+            android:exported="false" />
+        <activity
+            android:name=".login.P_2_3newac"
+            android:exported="false" />
+        <activity
+            android:name=".login.P_2_2newac"
+            android:exported="false" />
+        <activity
+            android:name=".login.P_2_1newaccount"
+            android:exported="false" />
+        <activity
+            android:name=".login.P_2_Login"
+            android:exported="false" />
+        <activity
+            android:name=".myPage.p6_4_notice"
+            android:exported="false" />
+        <activity
+            android:name=".StartPage"
+            android:exported="true"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

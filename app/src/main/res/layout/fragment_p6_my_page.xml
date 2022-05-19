@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myPage.P6_myPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".Mypage">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="back"
+                android:textSize="20sp"></Button>
+
+            <TextView
+                android:id="@+id/nickName"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginBottom="20dp"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:textSize="30sp"
+                android:padding="15dp"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:id="@+id/check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="체크문제"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:id="@+id/newId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="아이디 변경"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:id="@+id/newPw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="비밀번호 변경"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="버전정보	1.102.ver"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:id="@+id/darkMod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="다크모드"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="로그아웃"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
