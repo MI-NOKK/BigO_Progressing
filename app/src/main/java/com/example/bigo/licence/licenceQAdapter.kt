@@ -13,12 +13,13 @@ import com.example.bigo.R
 class licenceQAdapter(val nameList: ArrayList<licenceQData>) :
     RecyclerView.Adapter<licenceQAdapter.ViewHolder>() {
 
+    //private var answer =  Array<String>(20,{""})
     private var answer =  Array<String>(20,{""})
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view =
             LayoutInflater.from(parent.context)
-                .inflate(com.example.bigo.R.layout.recycle_licenceq, parent, false)
+                .inflate(R.layout.recycle_p9_3_license_question, parent, false)
         return ViewHolder(view)
     }
 
@@ -39,7 +40,6 @@ class licenceQAdapter(val nameList: ArrayList<licenceQData>) :
                 R.id.example03 -> answer[position] = "3"
                 R.id.example04 -> answer[position] = "4"
             }
-
         }
 
     }
@@ -51,14 +51,15 @@ class licenceQAdapter(val nameList: ArrayList<licenceQData>) :
         return answer
     }
 
+
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        val Q: TextView = view.findViewById(com.example.bigo.R.id.Question)
-        var ex: RadioGroup = view.findViewById(com.example.bigo.R.id.example)
-        val ex1: RadioButton = view.findViewById(com.example.bigo.R.id.example01)
-        val ex2: RadioButton = view.findViewById(com.example.bigo.R.id.example02)
-        val ex3: RadioButton = view.findViewById(com.example.bigo.R.id.example03)
-        val ex4: RadioButton = view.findViewById(com.example.bigo.R.id.example04)
+        val Q: TextView = view.findViewById(R.id.Question)
+        var ex: RadioGroup = view.findViewById(R.id.example)
+        val ex1: RadioButton = view.findViewById(R.id.example01)
+        val ex2: RadioButton = view.findViewById(R.id.example02)
+        val ex3: RadioButton = view.findViewById(R.id.example03)
+        val ex4: RadioButton = view.findViewById(R.id.example04)
 
         fun bind(item: licenceListData) {
         }

@@ -13,7 +13,7 @@ class licenceListAdapter(val nameList: ArrayList<licenceListData>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view =
-            LayoutInflater.from(parent.context).inflate(R.layout.recycle_licenced, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.recycle_p9_2_license_data, parent, false)
         return ViewHolder(view)
     }
 

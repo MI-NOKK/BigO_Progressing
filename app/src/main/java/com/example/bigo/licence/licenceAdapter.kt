@@ -1,6 +1,5 @@
 package com.example.bigo.licence
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,7 +13,7 @@ class licenceAdapter(val nameList: ArrayList<licenceData>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view =
-            LayoutInflater.from(parent.context).inflate(R.layout.recycle_licence, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.recycle_p9_1_license, parent, false)
         return ViewHolder(view)
     }
 

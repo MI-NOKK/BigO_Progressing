@@ -17,19 +17,26 @@
     <string name="title_home">Home</string>
     <string name="title_algo">알고리즘</string>
     <string name="title_mypg">마이페이지</string>
+    <string name="didn_t_get_otp_resend">인증번호 <b>재전송</b></string>
 
-    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer
-        took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-        but also the leap into electronic typesetting, remaining essentially unchanged.
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        Why do we use it?</string>
+    <string-array name="notice_cotent">
+        <item>공지사항1</item>
+        <item>공지사항2</item>
+        <item>공지사항3</item>
+        <item>공지사항4</item>
+    </string-array>
 
     <string-array name="notice_name">
         <item>커뮤니티 이용규칙 업데이트 안내</item>
         <item>2022년 3월 10일 업데이트 안내</item>
         <item>서비스 보안 강화 조치 안내</item>
         <item>개인정보 처리방침 개정 안내</item>
+    </string-array>
+
+    <string-array name="notice_today">
+        <item>22/05/18</item>
+        <item>22/05/17</item>
+        <item>22/05/14</item>
+        <item>22/05/12</item>
     </string-array>
 </resources>

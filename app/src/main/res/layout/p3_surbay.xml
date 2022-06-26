@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/surbay_bg"
+    tools:context=".survey">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+      <TextView
+          android:id="@+id/step1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 1"
+          android:textColor="@color/light_blue_900"
+          android:fontFamily="@font/tmonmonsori"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/black"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step1" />
+
+      <Button
+          android:id="@+id/yes1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no1"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q1" />
+
+      <Button
+          android:id="@+id/no1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:textColor="@color/white"
+          android:fontFamily="@font/tmonmonsori"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes1"
+          app:layout_constraintTop_toBottomOf="@+id/q1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox1">
+
+      <TextView
+          android:id="@+id/step2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 2"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/light_blue_900"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:textColor="@color/black"
+          android:fontFamily="@font/tmonmonsori"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step2" />
+
+      <Button
+          android:id="@+id/yes2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no2"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q2" />
+
+      <Button
+          android:id="@+id/no2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes2"
+          app:layout_constraintTop_toBottomOf="@+id/q2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox2">
+
+      <TextView
+          android:id="@+id/step3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 3"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/light_blue_900"
+          android:textStyle="bold"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:textColor="@color/black"
+          android:fontFamily="@font/tmonmonsori"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step3" />
+
+      <Button
+          android:id="@+id/yes3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no3"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q3" />
+
+      <Button
+          android:id="@+id/no3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes3"
+          app:layout_constraintTop_toBottomOf="@+id/q3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox3">
+
+      <TextView
+          android:id="@+id/step4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 4"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/light_blue_900"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:textColor="@color/black"
+          android:fontFamily="@font/tmonmonsori"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step4" />
+
+      <Button
+          android:id="@+id/yes4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no4"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q4" />
+
+      <Button
+          android:id="@+id/no4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes4"
+          app:layout_constraintTop_toBottomOf="@+id/q4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox4">
+
+      <TextView
+          android:id="@+id/step5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 5"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/light_blue_900"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/black"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step5" />
+
+      <Button
+          android:id="@+id/yes5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q5" />
+
+      <Button
+          android:id="@+id/no5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes5"
+          app:layout_constraintTop_toBottomOf="@+id/q5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox5">
+
+      <TextView
+          android:id="@+id/step6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 6"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/light_blue_900"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/black"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step6" />
+
+      <Button
+          android:id="@+id/yes6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no6"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q6" />
+
+      <Button
+          android:id="@+id/no6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes6"
+          app:layout_constraintTop_toBottomOf="@+id/q6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surbayBox7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/surbay_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox6">
+
+      <TextView
+          android:id="@+id/step7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="32dp"
+          android:layout_marginTop="16dp"
+          android:text="Step 7"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/light_blue_900"
+          android:textSize="25dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/q7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:text="컴퓨터 관련 지식이 있나요?"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/black"
+          android:textSize="21dp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/step7" />
+
+      <Button
+          android:id="@+id/yes7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="Yes"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/no7"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/q7" />
+
+      <Button
+          android:id="@+id/no7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:layout_marginBottom="32dp"
+          android:background="@drawable/btn_surbay"
+          android:text="No"
+          android:fontFamily="@font/tmonmonsori"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@+id/yes7"
+          app:layout_constraintTop_toBottomOf="@+id/q7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/surbay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Big O 시작하기"
+        android:fontFamily="@font/tmonmonsori"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surbayBox7" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.bigo.MainPage.P4_Navi
-import com.example.bigo.databinding.ActivityP9GichulBinding
+import com.example.bigo.MainPage.Navi
+import com.example.bigo.databinding.P91LicenseBinding
 import com.example.bigo.lcParcel
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -20,14 +20,14 @@ class licence : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityP9GichulBinding.inflate(layoutInflater)
+        val binding = P91LicenseBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
 
-        binding.recycleLicence.layoutManager =
+        binding.recycleLicense.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-        binding.recycleLicence.adapter = adapter
+        binding.recycleLicense.adapter = adapter
         lcName.collection("licence")
             .get().addOnSuccessListener { document ->
                 itemList.clear()
@@ -52,7 +52,7 @@ class licence : AppCompatActivity() {
         })
 
         binding.back.setOnClickListener {
-            val intent = Intent(this, P4_Navi::class.java)
+            val intent = Intent(this, Navi::class.java)
             startActivity(intent)
         }
     }

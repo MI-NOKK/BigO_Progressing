@@ -16,34 +16,34 @@
             android:value="ca-app-pub-3940256099942544~3347511713" />
 
         <activity
-            android:name=".Algorithm.P5_1_algoEx"
+            android:name=".Algorithm.algoEx"
             android:exported="false" />
         <activity
-            android:name=".Sql.P8_3_sqlTestQ"
+            android:name=".Sql.sqlQ_pro"
             android:exported="false" />
         <activity
-            android:name=".Sql.P8_2_sqlTestQ"
+            android:name=".Sql.sqlQ_normal"
             android:exported="false" />
         <activity
-            android:name=".Sql.P8_1_sqlTestQ"
+            android:name=".Sql.sqlQ_new"
             android:exported="false" />
         <activity
-            android:name=".Sql.P8_sql"
+            android:name=".Sql.sql"
             android:exported="false" />
         <activity
-            android:name=".CodingTest.P7_3_coTestQ"
+            android:name=".CodingTest.cotestQ_pro"
             android:exported="false" />
         <activity
-            android:name=".CodingTest.P7_2_coTetQ"
+            android:name=".CodingTest.cotestQ_normal"
             android:exported="false" />
         <activity
-            android:name=".Sql.P8_4_sqlSol"
+            android:name=".Sql.sqlSol"
             android:exported="false" />
         <activity
-            android:name=".CodingTest.P7_4_coteSol"
+            android:name=".CodingTest.coteSol"
             android:exported="false" />
         <activity
-            android:name=".CodingTest.P7_1_coTestQ"
+            android:name=".CodingTest.cotestQ_new"
             android:exported="false" />
         <activity
             android:name=".licence.licenceList"
@@ -55,52 +55,31 @@
             android:name=".licence.licenceQ"
             android:exported="false" />
         <activity
-            android:name=".licence.licenceQ1"
-            android:exported="false" />
-        <activity
-            android:name=".licence.licenceQ2"
-            android:exported="false" />
-        <activity
             android:name=".licence.licence"
             android:exported="false" />
         <activity
-            android:name=".CodingTest.P7_coTest"
+            android:name=".CodingTest.cotest"
             android:exported="false" />
         <activity
-            android:name=".myPage.P6_3_chPW"
+            android:name=".myPage.chPW"
             android:exported="false" />
         <activity
-            android:name=".myPage.P6_2_chI"
+            android:name=".myPage.CheckQ"
             android:exported="false" />
         <activity
-            android:name=".myPage.P6_1_check"
+            android:name=".survey"
             android:exported="false" />
         <activity
-            android:name=".P3_surbay"
+            android:name=".MainPage.Navi"
             android:exported="false" />
         <activity
-            android:name=".login.P_2_5_findpw"
+            android:name=".login.newaccount"
             android:exported="false" />
         <activity
-            android:name=".MainPage.P4_Navi"
+            android:name=".login.Login"
             android:exported="false" />
         <activity
-            android:name=".login.P_2_4findpw"
-            android:exported="false" />
-        <activity
-            android:name=".login.P_2_3newac"
-            android:exported="false" />
-        <activity
-            android:name=".login.P_2_2newac"
-            android:exported="false" />
-        <activity
-            android:name=".login.P_2_1newaccount"
-            android:exported="false" />
-        <activity
-            android:name=".login.P_2_Login"
-            android:exported="false" />
-        <activity
-            android:name=".myPage.p6_4_notice"
+            android:name=".myPage.mypageNotice"
             android:exported="false" />
         <activity
             android:name=".StartPage"

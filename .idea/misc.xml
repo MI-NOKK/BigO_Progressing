@@ -1,5 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ChoMinhyoek/AndroidStudioProjects/BigOBakcup (1)/app/src/main/res/layout/p1_start.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ChoMinhyoek/AndroidStudioProjects/BigOBakcup (1)/app/src/main/res/layout/p2_1_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ChoMinhyoek/AndroidStudioProjects/BigOBakcup (1)/app/src/main/res/layout/p3_surbay.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ChoMinhyoek/AndroidStudioProjects/BigOBakcup (1)/app/src/main/res/layout/p4_navigation.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ChoMinhyoek/AndroidStudioProjects/BigOBakcup (1)/app/src/main/res/layout/p7_1_cotest.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ChoMinhyoek/AndroidStudioProjects/BigOBakcup (1)/app/src/main/res/layout/p8_5_sql_solution.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout-w936dp/recycle_check_cotest.xml" value="0.27421875" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout-w936dp/recycle_check_sql.xml" value="0.27421875" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/dialog_forgot_password.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p1_start.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p2_1_login.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p2_2_newaccount.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p3_surbay.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p4_home.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p4_navigation.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p5_1_algo.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p5_2_algo_ex.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p6_1_mypage.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p6_2_check.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p6_5_notice.xml" value="0.1875" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p7_1_cotest.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p7_2_cotest_new.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p7_5_cotest_solution.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p8_1_sql.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p8_2_sql_new.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p8_3_sql_nomal.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p8_4_sql_pro.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p8_5_sql_solution.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p9_1_license.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p9_2_license_list.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p9_3_license_question.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/p9_4_license_solution.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_check_cotest.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_p6_5_notice.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_p7_1_cotest.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_p8_1_sql.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_p9_1_license.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_p9_2_license_data.xml" value="0.365625" />
+        <entry key="..\:/Users/cyj98/AndroidStudioProjects/BigOGiiiiii/app/src/main/res/layout/recycle_p9_3_license_question.xml" value="0.365625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/font/font.xml" value="0.297265625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_licence.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_licence_list.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_licence_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_licence_sol.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p2_1newaccount.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p2_login.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p3_surbay.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p4_navi.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p51_algo_ex.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p61_check.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p62_ch_i.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p63_ch_pw.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p71_co_test_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p72_co_tet_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p73_co_test_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p74_cote_sol.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p7_co_test.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p81_sql_test_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p82_sql_test_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p83_sql_test_q.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p84_sql_sol.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_p8_sql.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/activity_start_p1.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/dialog_forgot_password.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/fragment_p4_1home.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/fragment_p6_my_page.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/last_list_item.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p1_start.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p2_1_login.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p2_1_newaccount.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p2_2_newaccount.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p2_login.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p3_surbay.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p4_home.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p4_navigation.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p51_algo_ex.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p5_1_algo.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p5_1_algo_ex.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p5_2_algo_ex.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p5_algo.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_1_check.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_1_mypage.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_2_change_id.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_2_check.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_3_change_id.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_3_change_pw.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_4_change_pw.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_4_item.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_4_notice.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_5_notice.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p6_mypage.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p7_1_cotest.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p7_2_cotest_new.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p7_3_cotest_nomal.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p7_4_cotest_pro.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p7_5_cotest_solution.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p7_cotest.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_1_sql.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_1_sql_new.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_2_sql_new.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_3_sql_nomal.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_4_sql_pro.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_5_sql_solution.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p8_sql.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p9_1_license.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p9_1_license_list.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p9_2_license_list.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p9_2_license_question.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p9_3_license_question.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/p9_4_license_solution.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_cotest.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_licence.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_licenced.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_licenceq.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_license.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_licensed.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_licenseq.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p6_4_notice.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p6_5_notice.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p7_1_cotest.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p7_cotest.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p8_1_sql.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p8_sql.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p9_1_license.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p9_2_license_data.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_p9_3_license_question.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/layout/recycle_sql.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.265" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/BigO/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.265" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "468223443846-cdao7t5c2aaqt373qgaijiu5scspjemb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bigo",
+            "certificate_hash": "52577292d5f2d93c6abfcc8ddcc8bb32d01f8937"
+          }
+        },
+        {
           "client_id": "468223443846-r9sq3025rgne3vlmv33nijtvsp3tm1ch.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

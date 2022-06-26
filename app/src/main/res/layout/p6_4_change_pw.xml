@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myPage.chPW">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="68dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="130dp"
+        android:text="back"
+        app:layout_constraintBottom_toTopOf="@+id/mainTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="220dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="390dp"
+        android:text="새 비밀번호를 코딩해주세요"
+        android:fontFamily="@font/tmonmonsori"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/change_pw_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="239dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="35dp"
+        android:text="새 비밀번호를 입력해주세요"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <CheckBox
+        android:id="@+id/pwCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:minHeight="48dp"
+        android:text="비밀번호확인"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pw" />
+
+    <EditText
+        android:id="@+id/re_pw"
+        android:layout_width="239dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="35dp"
+        android:text="현재 비밀번호를 입력해주세요"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <CheckBox
+        android:id="@+id/pwCheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:minHeight="48dp"
+        android:text="비밀번호확인"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/re_pw" />
+
+    <Button
+        android:id="@+id/change_pw_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
