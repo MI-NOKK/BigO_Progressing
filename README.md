@@ -1,4 +1,7 @@
 # BigO_Progressing
+
+코딩 테스트와 자격증 문제를 통해 취업 준비를 효율적으로 지원하는 문제 풀이 앱입니다.
+
 ![5](https://github.com/user-attachments/assets/6bc2090f-609f-4ffd-8ecf-247324f5875a)
 
 <aside>
