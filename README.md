@@ -19,3 +19,55 @@
 - 리사이클러뷰를 이용해 문제 리스트와 문제 페이지 만듬
 - Firestore Database에 문제에 관련된 데이터 관리 및 읽기
 - 기본적인 화면 구상
+
+### 소스코드
+ 
+ Firestore에서 데이터를 가져와 RecyclerView를 통해 화면에 표시하는 기능
+
+```java
+ binding.recycleLicense.layoutManager =
+            LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        binding.recycleLicense.adapter = adapter
+        lcName.collection("licence")
+            .get().addOnSuccessListener { document ->
+                itemList.clear()
+                for (dc in document) {
+                    val item = licenceData(dc["lcName"] as String, dc["id"] as String)
+                    itemList.add(item)
+                   }
+                adapter.notifyDataSetChanged()
+            }.addOnFailureListener { exception ->
+                Log.d(ContentValues.TAG, "get failed with ", exception)
+            }
+
+```
+
+
+Firebase 실시간 데이터베이스에서 사용자의 설문 완료 여부를 확인하고, 그에 따라 Navi 화면이나 설문 조사 화면(survey)으로 이동, 만약 사용자가 로그인하지 않은 상태라면, 로그인 화면(Login)으로 이동
+```java
+  database.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                val surveyDo = snapshot.child(uid).child("survey").value.toString()
+                if (firebaseUser != null) {
+                    if (surveyDo == "On") {
+                        startActivity(Intent(this@StartPage, Navi::class.java))
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+                        finish()
+                    } else {
+                        startActivity(Intent(this@StartPage, survey::class.java))
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+                        finish()
+                    }
+                } else {
+                    startActivity(Intent(this@StartPage, Login::class.java))
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+                    finish()
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                Toast.makeText(this@StartPage, "fail data set", Toast.LENGTH_SHORT).show()
+            }
+        })
+```
+
